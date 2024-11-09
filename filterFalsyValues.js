@@ -11,4 +11,4 @@ function filterFalsyValues(arr) {
   return res;
 }
 
-console.log(filterFalsyValues([0, 1, "", "hello", null, undefined, false, 42]));
+console.log(filterFalsyValues([0, 1, "", "hello", null, undefined, false, 42])); // [1, "hello", 42]

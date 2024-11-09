@@ -46,5 +46,5 @@ function validateSchema(obj, schema) {
   }
   return true;
 }
-console.log(validateSchema(obj, schema)); // Expected output: true
+console.log(validateSchema(obj, schema)); // true
 

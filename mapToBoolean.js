@@ -9,4 +9,4 @@ function mapToBoolean(arr) {
   return res;
 }
 
-console.log(mapToBoolean([0, "hello", "", NaN, 42, {}, []]));
+console.log(mapToBoolean([0, "hello", "", NaN, 42, {}, []])); // [false, true, false, false, true, true, true]
